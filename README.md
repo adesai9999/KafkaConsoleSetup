@@ -16,7 +16,8 @@ metadata:
   name: userXX-console
   namespace: userXX-project
 spec:
-  hostname: userXX-console.apps.cluster-xxxx.dynamic.redhatworkshops.io
+  hostname: userXX-console.apps.cluster-zspnq.dynamic.redhatworkshops.io
+# hostname: userXX-console.apps.cluster-4j7k4.dynamic.redhatworkshops.io
   kafkaClusters:
     - listener: plain
       name: names-cluster
@@ -28,12 +29,14 @@ spec:
 5. A Kafka Console Pod should be running in the namespace. 
 
 6. Open the URL in a browser window:
-https://userXX-console.apps.cluster-xxxx.dynamic.redhatworkshops.io
+https://userXX-console.apps.cluster-zspnq.dynamic.redhatworkshops.io
+OR
+https://userXX-console.apps.cluster-4j7k4.dynamic.redhatworkshops.io
 
-7. Click on *Click to login Anonymously*
+8. Click on *Click to login Anonymously*
 
-8. Explore the Kafka Console UI. 
+9. Explore the Kafka Console UI. 
 
-9. Under *Topics* > Click on *names* topic to explore the different messages and their values getting published to Kafka. 
+10. Under *Topics* > Click on *names* topic to explore the different messages and their values getting published to Kafka. 
 
 
